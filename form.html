@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Park</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .topnav {
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-size: large;
+    }
+    
+    .topnav input {
+        float: right;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: large;
+        margin-left: 16px;
+        margin-bottom: 8px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .topnav a:hover {
+        color: blue;
+    }
+    
+    .topnav input :hover {
+        color: blue;
+    }
+</style>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html" style="background-color: darkgreen;">Home</a>
+        <a href="image.html">Images</a>
+        <a href="About.html">Contacts</a>
+        <a href="Contact.html">About</a>
+        <a href="">Search</a>
+        <input type="text" placeholder="Search...">
+    </div>
+    <form>
+        <fieldset style="width: fit-content;">
+            <legend>PERSONAL DETAILS</legend>
+            <br>
+            <br>
+            <label for="name">First name:</label>
+            <input type="text" name="your name">
+            </br>
+            <br>
+            <label for="name">Last name:</label>
+            <input type="text" name="your last name">
+            </br>
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" adress="Address">
+            </br>
+            <br>
+            <label for="gander">Gander:</label>
+            <input type="radio" value="m">m
+            <input type="radio" value="f">f
+            </br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Enter your active email" required>
+            </br>
+            <br>
+            <label for="phone number">Contact:</label>
+            <input type="phone number" placeholder="Enter your active number" required>
+            </br>
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="date">
+            </br>
+            <br>
+            <label for="">Comments:</label></br>
+            <textarea placeholder="Enter your comment here"></textarea>
+            </br>
+            <br>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
